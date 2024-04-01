@@ -1,4 +1,7 @@
-n = int(input())
+def print_numbers(n):
+    for i in range(1, n + 1):
+        print(i, end=' ')
 
-for i in (1, n):
-    print(i)
+# Example usage
+n = int(input())
+print_numbers(n)
